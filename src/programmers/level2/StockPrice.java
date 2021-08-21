@@ -1,9 +1,21 @@
 package programmers.level2;
 
-// ÁÖ½Ä °¡°İ
+import java.util.ArrayList;
+
+// ì£¼ì‹ ê°€ê²©
 public class StockPrice {
 
 	public static void main(String[] args) {
+		int[] prices = {1,2,3,2,3};
+		int[] answer = new int[prices.length];
+        
+		ArrayList<Integer> temp = new ArrayList<Integer>();
+        
+        for(int i=0; i<prices.length; i++){
+            temp.add(prices[i]);
+            System.out.println(temp.get(i));
+        }
+        
 
 	}
 	
